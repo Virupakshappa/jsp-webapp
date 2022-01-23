@@ -3,8 +3,12 @@ Simple Web Application using jsp
 
 # TAGS
 Directive Tag : <%@ %>
--Used to mention import statements etc 
+@page is Used to import packages, mention content type,error page etc....
 Example : <%@ page import = "java.util.date","java.util.name" %>
+
+@include is used to include other jsp page into this one
+
+@taglib is used to include other external tags (example: Spring framework tags)
 
 Declaration Tag : <%! %>
 -Used to declare variables outside the method

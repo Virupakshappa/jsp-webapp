@@ -12,8 +12,8 @@ Example : <%! int value = 1; %>
 
 Scriptlet Tag : <% %>
 -Used to include code inside the method (ex : doGet, doPost, service)
-Example : <% String a = getParameter("t1");
-             String b = getParameter("t2");
+Example : <% String a = request.getParameter("t1");
+             String b = request.getParameter("t2");
           %>
           
 Expression Tag : <%=  %>
